@@ -19,6 +19,20 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bookItem {
+  list-style-type: none;
+  border: 1px solid black;
+  margin: 20px;
+  width: 200px;
+  padding: 10px;
+  cursor: pointer;
+  background: lightblue;
 }
