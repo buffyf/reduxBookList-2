@@ -2,6 +2,7 @@ import { combineReducers } from 'redux';
 
 import bookList from '../data/books';
 
+
 const initialState = bookList;
 console.log(initialState);
 //console.log(initialState);
